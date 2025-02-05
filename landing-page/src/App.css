@@ -1,0 +1,15 @@
+/*pode apagar é so para teste do section nav*/
+
+.section {
+    height: 100vh;
+    padding: 80px 20px;
+    background-color: #ffffff;
+    border-bottom: 5px solid #000000;
+  }
+  
+  #home { background-color: #e3f2fd; }
+  #beneficios { background-color: #fce4ec; }
+  #depoimentos { background-color: #e8f5e9; }
+  #faq { background-color: #fff3e0; }
+  #sobre { background-color: #ede7f6; }
+  
