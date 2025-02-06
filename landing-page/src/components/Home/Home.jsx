@@ -45,7 +45,6 @@ function Home() {
         <p>De R$60,00 por apenas</p>
         <p><span className='oferta'>R$19,00</span></p>
         <p>Oferta por tempo limitado, adquira já o seu!</p>
-
         <div className='timer'>
           <span>{String(horas).padStart(2, '0')}:</span>
           <span>{String(minutos).padStart(2, '0')}:</span>

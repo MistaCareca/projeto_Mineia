@@ -2,6 +2,9 @@ import { useState } from 'react';
 import './App.css'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home';
+import Beneficios from './components/Beneficios/Beneficios';
+import Depoimentos from './components/Depoimentos/Depoimentos';
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -15,17 +18,17 @@ function App() {
   };
 
   return (
-    <div>
-      <Header onNavigate={handleScrollToSection} />
+    <>
+        <Header onNavigate={handleScrollToSection}/>
 
-      <main>
-        <section id="home" className="section"><Home /></section>
-        <section id="beneficios" className="section"></section>
-        <section id="depoimentos" className="section"></section>
-        <section id="faq" className="section"></section>
-        <section id="sobre" className="section"></section>
-      </main>
-    </div>
+        <main>
+          <section id="home" className="section"><Home /></section>
+          <section id="beneficios" className="section"><Beneficios /></section>
+          <section id="depoimentos" className="section"><Depoimentos /></section>
+          <section id="faq" className="section"></section>
+          <section id="sobre" className="section"></section>
+        </main>
+    </>
   );
 }
 
