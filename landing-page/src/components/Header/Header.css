@@ -6,3 +6,35 @@ header
 nav
 p
 */
+
+header{
+    position: sticky;
+    margin: 0 auto;
+    background-color: #A33E2A;
+    border-radius: 40px;
+    height: 6vmin;
+    width: 82vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    cursor: pointer;
+    color: #F4E9E9;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5vmin;
+    
+}
+
+nav p:hover{ /*tá bem errado vou arrumar*/
+    border-radius: 40px;
+    background-color: #EE3C3C;
+    height: 6vmin;
+    width: 8vmin;
+
+}
