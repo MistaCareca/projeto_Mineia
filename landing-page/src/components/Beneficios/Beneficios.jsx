@@ -1,4 +1,6 @@
 import './Beneficios.css';
+import placeholder from '../../assets/placeholder.png'
+
 
 function Beneficios(){
     return(
@@ -14,7 +16,7 @@ function Beneficios(){
                 <p>Desenvolvimento Pessoal e Profissional</p>
                 <p className='destaque'>Melhoria da Vida Sexual</p>
             </div>
-            <img src="" alt="logo do livro" />
+            <img src={placeholder} alt="logo do livro" />
         </section>
     )
 }

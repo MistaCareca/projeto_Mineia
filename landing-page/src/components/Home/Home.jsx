@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
-// import bookImage from '../assets/livro.png';
+import placeholder from '../../assets/placeholder.png'
 
 function Home() {
   const horaI = 11;
@@ -39,7 +39,7 @@ function Home() {
         </button>
       </div>
 
-      <img className='book' src="" alt="Capa do Livro" />
+      <img className='book' src={placeholder} alt="Capa do Livro" />
 
       <div className='sale'>
         <p>De R$60,00 por apenas</p>
