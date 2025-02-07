@@ -16,7 +16,7 @@ function Beneficios(){
                 <p>Desenvolvimento Pessoal e Profissional</p>
                 <p className='destaque'>Melhoria da Vida Sexual</p>
             </div>
-            <img src={placeholder} alt="logo do livro" />
+            <img src={placeholder} alt="logo do livro" className='livro'/>
         </section>
     )
 }
