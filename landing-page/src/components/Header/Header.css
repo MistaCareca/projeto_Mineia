@@ -8,7 +8,9 @@ p
 */
 
 header{
-    position: sticky;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
     margin: 0 auto;
     background-color: #A33E2A;
     border-radius: 40px;
@@ -17,6 +19,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 nav{

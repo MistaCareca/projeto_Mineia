@@ -14,6 +14,9 @@ timer
 .home{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vmin;
 }
 
 .call{
@@ -44,6 +47,11 @@ button{
     cursor: pointer;
     font-size: 3vmin;
     font-weight: 600;
+    border: none;
+    margin-top: 5vmin;
+}
+button:hover{
+    background-color: #8D1717;
 }
 
 .sale{
@@ -69,7 +77,8 @@ button{
 }
 
 .autora{
-    text-align: center;
+    text-align: right;
+    margin-right: 8vmin;
 }
 
 .book{
