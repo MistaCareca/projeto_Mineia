@@ -10,3 +10,54 @@ sale
 oferta
 timer
 */
+
+.home{
+    display: flex;
+    flex-direction: row;
+}
+
+.call{
+    color: #F3E3C1;
+    font-weight: 400;
+
+}
+.call p{
+    font-size: 6vmin;
+}
+.call h1{
+    font-size: 8vmin;
+    line-height: 10vmin;
+    font-weight: 400;
+}
+.destaque{
+    color: #E8A04C;
+    font-weight: 600;
+}
+
+button{
+    background-color: #EE3C3C;
+    width: 34vmin;
+    height: 9vmin;
+    border-radius: 25px;
+    font-family: "Lexend Deca", serif;
+    color: #F4E9E9;
+    cursor: pointer;
+    font-size: 3vmin;
+    font-weight: 600;
+}
+
+.sale{
+    color: #F3E3C1;
+    font-size: 4vmin;
+    font-weight: 300;
+}
+
+.oferta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EE3C3C;
+    font-size: 6vmin;
+    font-weight: 600;
+}
+

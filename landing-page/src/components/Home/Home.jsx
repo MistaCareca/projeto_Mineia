@@ -42,7 +42,7 @@ function Home() {
       <img className='book' src={placeholder} alt="Capa do Livro" />
 
       <div className='sale'>
-        <p>De R$60,00 por apenas</p>
+        <p>De <del>R$60,00</del> por apenas</p>
         <p><span className='oferta'>R$19,00</span></p>
         <p>Oferta por tempo limitado, adquira já o seu!</p>
         <div className='timer'>
