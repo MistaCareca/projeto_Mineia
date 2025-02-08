@@ -33,7 +33,7 @@ function Home() {
       <div className='call'>
         <p>O segredo para <span className='destaque'>transformar</span> sua vida.</p>
         <h1>Como ser um Casal Perfeito na Cama e nos Negócios SEGUNDO A <span className='destaque'>VONTADE DE DEUS</span></h1>
-        <p>Por Mineia Otsuka</p>
+        <p className='autora'>Por Mineia Otsuka</p>
         <button onClick={() => window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')}>
           COMPRAR AGORA
         </button>
@@ -44,7 +44,7 @@ function Home() {
       <div className='sale'>
         <p>De <del>R$60,00</del> por apenas</p>
         <p><span className='oferta'>R$19,00</span></p>
-        <p>Oferta por tempo limitado, adquira já o seu!</p>
+        <p className='smaller'>Oferta por tempo limitado, adquira já o seu!</p>
         <div className='timer'>
           <span>{String(horas).padStart(2, '0')}:</span>
           <span>{String(minutos).padStart(2, '0')}:</span>

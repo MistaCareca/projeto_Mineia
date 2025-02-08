@@ -22,7 +22,7 @@ timer
 
 }
 .call p{
-    font-size: 6vmin;
+    font-size: 4vmin;
 }
 .call h1{
     font-size: 8vmin;
@@ -47,9 +47,11 @@ button{
 }
 
 .sale{
+    margin-left: 5vmin;
     color: #F3E3C1;
     font-size: 4vmin;
-    font-weight: 300;
+    font-weight: 200;
+    text-align: center;
 }
 
 .oferta{
@@ -61,3 +63,16 @@ button{
     font-weight: 600;
 }
 
+.smaller{ /*tag nova*/
+    font-size: 2vmin;
+    
+}
+
+.autora{
+    text-align: center;
+}
+
+.book{
+    width: 60vmin;
+    height: 60vmin;
+}
