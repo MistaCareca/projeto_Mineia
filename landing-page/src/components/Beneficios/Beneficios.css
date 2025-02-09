@@ -4,6 +4,44 @@
 classes:
 beneficios
 circulo
-destaque
+destaque_beneficios
 livro
 */
+
+
+.beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 6vmin;
+    color: #F3E3C1;
+}
+
+p{
+    color: #F3E3C1;
+    text-align: center;
+    
+}
+
+.circulo{
+    display: block;
+    background-color: #8D1717;
+    width: 69vmin;
+    height: 69vmin;
+    border-radius: 50%;
+}
+
+.destaque_beneficios{
+    color: #E8A04C;
+}
+
+.textos{
+    font-size: 3vmin;
+    width: 69vmin;
+    height: 69vmin;
+    margin-top: 15vmin;
+}
