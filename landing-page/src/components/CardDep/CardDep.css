@@ -7,3 +7,27 @@ img
 h4
 p
 */
+
+.depoimentos{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.depoimentos div{
+    background-color: #f3e3c1;
+    width: 40vmin;
+    height: 50vmin;
+    border-radius: 25px;
+    border: 3vmin solid #f3e3c1;
+}
+
+.depoimentos p{
+    color: #150707;
+    text-align: justify;
+}
+
+.depoimentos img{
+    width: 20vmin;
+    height: 20vmin;
+}
