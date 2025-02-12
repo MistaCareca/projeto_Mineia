@@ -7,3 +7,45 @@ h1
 contentS
 contentP
 */
+
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contentP{
+    margin-top: 10vmin;
+    background-color: #d97342;
+    width: 90vmin;
+    height: 15vmin;
+    border-radius: 20px;
+    
+    
+}
+
+.contentP p{
+    text-align: justify;
+    padding: 1vmin;
+}
+
+.contentS{
+    margin-top: 5vmin;
+    background-color: #d97342;
+    width: 90vmin;
+    height: 16vmin;
+    border-radius: 20px;
+    
+}
+
+.contentS p{
+    text-align: justify;
+    padding: 1vmin;
+}
+
+h4{
+    color: #f3e3c1;
+    padding: 1vmin;
+}
