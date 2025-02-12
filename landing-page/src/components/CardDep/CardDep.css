@@ -11,7 +11,8 @@ p
 .depoimentos{
     display: flex !important;
     flex-direction: row !important;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15vmin;
 }
 
 .depoimentos div{
@@ -20,6 +21,18 @@ p
     height: 50vmin;
     border-radius: 25px;
     border: 3vmin solid #f3e3c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    cursor: default;
+    
+}
+
+.depoimentos div:hover{
+    transform: scale(1.1);
 }
 
 .depoimentos p{
@@ -28,6 +41,8 @@ p
 }
 
 .depoimentos img{
-    width: 20vmin;
-    height: 20vmin;
+    width: 15vmin;
+    height: 15vmin;
+    margin-bottom: 15px
 }
+
