@@ -34,7 +34,7 @@ function Home() {
         <p>O segredo para <span className='destaque'>transformar</span> sua vida.</p>
         <h1>Como ser um Casal Perfeito na Cama e nos Negócios SEGUNDO A <span className='destaque'>VONTADE DE DEUS</span></h1>
         <p className='autora'>Por Mineia Otsuka</p>
-        <button onClick={() => window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')}>
+        <button onClick={() => window.open('https://pay.kiwify.com.br/fPEjkmE?afid=7p501aTb', '_blank')}>
           COMPRAR AGORA
         </button>
       </div>

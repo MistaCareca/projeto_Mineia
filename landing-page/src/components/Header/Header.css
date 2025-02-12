@@ -1,43 +1,48 @@
-/*aqui voce pode estilizar todo o header*/
-
-/*
-classes:
-header
-nav
-p
-*/
-
-header{
+/* Header fixo no topo */
+.header {
     position: fixed;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0 auto;
     background-color: #A33E2A;
     border-radius: 40px;
-    height: 6vmin;
-    width: 82vmin;
+    height: 5vmin;
+    width: 43%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    z-index: 1000; /* Garante que fique acima de tudo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-nav{
-    cursor: pointer;
+/* Estilização da navegação */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vmin;
+}
+
+/* Estilização dos links */
+.nav p {
     color: #F4E9E9;
     font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 5vmin;
-    
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 40px;
+    transition: background 0.3s ease, border 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
 }
 
-nav p:hover{ /*tá bem errado vou arrumar*/
-    border-radius: 40px;
+/* Hover bonito */
+.nav p:hover {
     background-color: #EE3C3C;
-    height: 6vmin;
-    width: 8vmin;
+    color: white;
+    transform: scale(1.1);
+}
 
+/* Destaque na seção ativa */
+.nav p.active {
+    background-color: #EE3C3C;
+    color: white;
 }

@@ -34,9 +34,9 @@ function Sobre(){
             <div className='redes'>
                 <h3>Conheça mais do trabalho de Mineia:</h3>
                     <div className='links'>
-                        <a href="https://www.youtube.com/watch?v=-YkFMdq1hpw"><img src= {youtubeIcon} className='ytb' alt="icone youtube" /></a>
-                        <a href="https://www.youtube.com/watch?v=-YkFMdq1hpw"><img src= {tiktokIcon} alt="icone tiktok" /></a>
-                        <a href="https://www.youtube.com/watch?v=-YkFMdq1hpw"><img src={instagranIcon} alt="icone instagram" /></a>
+                        <a href="https://www.youtube.com/@mineiaotsuka"><img src= {youtubeIcon} className='ytb' alt="icone youtube" /></a>
+                        <a href="https://www.tiktok.com/@mineiaotsuka?lang=pt-BR"><img src= {tiktokIcon} alt="icone tiktok" /></a>
+                        <a href="https://www.instagram.com/mineiaotsuka/"><img src={instagranIcon} alt="icone instagram" /></a>
                     </div>
             </div>
         </div>
