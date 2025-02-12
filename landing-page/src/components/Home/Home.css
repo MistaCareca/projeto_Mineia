@@ -82,6 +82,7 @@ button:hover{
 }
 
 .book{
-    width: 60vmin;
-    height: 60vmin;
+    width: 90vmin;
+    height: 70vmin;
+    transform: rotate(-10deg)
 }

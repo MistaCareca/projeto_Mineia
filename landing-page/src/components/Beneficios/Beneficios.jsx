@@ -1,11 +1,13 @@
 import './Beneficios.css';
-import placeholder from '../../assets/placeholder.png'
+import capa from '../../assets/capa.png'
 
 
 function Beneficios(){
     return(
         <section className='beneficios'>
             <h1>Benefícios do E-Book:</h1>
+
+            <div className='total'>
             <div className='circulo'>
                 <div className='textos'>
                 <p>Fortalecimento de Relacionamento</p>
@@ -18,7 +20,12 @@ function Beneficios(){
                 <p className='destaque_beneficios'>Melhoria da Vida Sexual</p>
                 </div>
             </div>
-            <img src={placeholder} alt="logo do livro" className='livro'/>
+            <div className='imgzone'>
+                <img src={capa} alt="logo do livro" className='livro'/>
+
+            </div>
+
+            </div>
         </section>
     )
 }

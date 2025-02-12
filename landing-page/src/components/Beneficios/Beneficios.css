@@ -14,6 +14,7 @@ livro
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 h1{
@@ -27,8 +28,15 @@ p{
     
 }
 
+.total{
+    margin-top: 10vmin;
+    display: flex;
+    flex-direction: row;
+}
+
 .circulo{
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #8D1717;
     width: 69vmin;
     height: 69vmin;
@@ -44,4 +52,11 @@ p{
     width: 69vmin;
     height: 69vmin;
     margin-top: 15vmin;
+}
+
+.livro{
+    margin-top: 5vmin;
+    width: 40vmin;
+    height: 60vmin;
+    transform: rotate(8deg)
 }
