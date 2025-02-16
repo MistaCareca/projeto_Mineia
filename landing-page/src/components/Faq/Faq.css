@@ -7,3 +7,75 @@ h1
 contentS
 contentP
 */
+
+.faq p{
+    font-size: 2vmin;
+}
+
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contentP{
+    margin-top: 10vmin;
+    background-color: #d97342;
+    width: 90vmin;
+    height: 15vmin;
+    border-radius: 20px;
+    
+    
+}
+
+.contentP p{
+    text-align: justify;
+    padding: 1vmin;
+}
+
+.contentS{
+    margin-top: 5vmin;
+    background-color: #d97342;
+    width: 90vmin;
+    height: 16vmin;
+    border-radius: 20px;
+    
+}
+
+.contentS p{
+    text-align: justify;
+    padding: 1vmin;
+}
+
+h4{
+    color: #f3e3c1;
+    padding: 1vmin;
+}
+
+@media (max-width: 768px) {
+    .contentP,
+    .contentS {
+        width: 100vmin; /* Reduz a largura para telas menores */
+        padding: 3vmin;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq p{
+        font-size: 2.5vmin;
+    }
+
+    .contentP,
+    .contentS {
+        width: 90%; /* Usa % para melhor adaptação */
+        height: auto;
+        padding: 4vmin;
+    }
+
+    .faq {
+        margin-top: 0.5vmin;
+        padding: 3vmin;
+    }
+}

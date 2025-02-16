@@ -12,26 +12,26 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   const handleScrollToSection = (sectionId) => {
-    setActiveSection(sectionId);
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
+      setActiveSection(sectionId);
+      const section = document.getElementById(sectionId);
+      if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+      }
   };
 
   return (
-    <>
-        <Header onNavigate={handleScrollToSection}/>
-
-        <main>
-          <section id="home" className="section"><Home /></section>
-          <section id="beneficios" className="section"><Beneficios /></section>
-          <section id="depoimentos" className="section"><Depoimentos /></section>
-          <section id="faq" className="section"><Faq /></section>
-          <section id="sobre" className="section"><Sobre /></section>
-        </main>
-    </>
+      <>
+          <Header onNavigate={handleScrollToSection} activeSection={activeSection} />
+          <main>
+              <section id="home" className="section"><Home /></section>
+              <section id="beneficios" className="section"><Beneficios /></section>
+              <section id="depoimentos" className="section"><Depoimentos /></section>
+              <section id="faq" className="section"><Faq /></section>
+              <section id="sobre" className="section"><Sobre /></section>
+          </main>
+      </>
   );
 }
+
 
 export default App;

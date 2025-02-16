@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 /*pode apagar é so para teste do section nav*/
+
+html{
+  scrollbar-width: none;
+}
 
 .section {
     height: 100vh;
-    padding: 80px 20px;
-    border-bottom: 5px solid #000000;
+    padding: 80px 40px;
   }
 
 /*aqui voce pode estilizar todo o header*/
 
-
+body{
+  font-family: "Lexend Deca", serif;
+  background-image: linear-gradient(to right, #150707 60%, #3D1B1A 40%);
+}
 
   

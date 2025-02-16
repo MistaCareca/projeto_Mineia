@@ -12,3 +12,118 @@ redes
 destaque
 links
 */
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto_autora {
+    width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.content p {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #F3E3C1;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 3vmin;
+}
+
+.p1{
+    margin: -20vmin;
+    left: 70%;
+    line-height: 1.2; /* Reduz o espaçamento entre as linhas */
+    overflow: hidden;
+    text-align: justify;
+
+}
+
+.p2{
+    left: 60%;
+    margin: 6vmin;
+    line-height: 1.2; /* Reduz o espaçamento entre as linhas */
+    overflow: hidden;
+    text-align: justify;
+    
+}
+
+.p3{
+    left: 50%;
+    margin: 25vmin;
+    line-height: 1.2; /* Reduz o espaçamento entre as linhas */
+    overflow: hidden;
+    text-align: justify;
+    
+}
+
+.destaque_sobre{
+    font-weight: 800;
+}
+
+.redes{
+    margin-top: 5vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.redes h3{
+    font-size: 5vmin;
+    color: #F3E3C1;
+}
+
+.links img{
+    width: 10vmin;
+    height: 10vmin;
+}
+
+.ytb{
+    width: 11vmin !important;
+    height: 11vmin !important; 
+}
+
+@media(max-width: 480px){
+    .sobre{
+        margin-top: -90vmin;
+    }
+    .redes h3{
+        text-align: center;
+    }
+
+    .redes{
+        margin-bottom: 0vmin;
+    }
+
+    .content p{
+        font-size: 0.43rem;
+    }
+
+    .foto_autora{
+        width: 97vmin;
+    }
+
+    .p1{
+        margin-top: -12vmin;
+    }
+
+    .p2{
+        left: 45%;
+    }
+
+    .p3{
+        bottom: -45vmin;
+        left: 25vmin;
+    }
+}

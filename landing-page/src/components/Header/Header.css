@@ -1,8 +1,86 @@
-/*aqui voce pode estilizar todo o header*/
+/* Header fixo no topo */
+.header {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #A33E2A;
+    border-radius: 40px;
+    height: 6.5vmin;
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Garante que fique acima de tudo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-/*
-classes:
-header
-nav
-p
-*/
+/* Estilização da navegação */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vmin;
+}
+
+/* Estilização dos links */
+.nav p {
+    color: #F4E9E9;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 40px;
+    transition: background 0.3s ease, border 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+/* Hover bonito */
+.nav p:hover {
+    background-color: #EE3C3C;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Destaque na seção ativa */
+.nav p.active {
+    background-color: #EE3C3C;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 80%;
+        height: 7vmin;
+    }
+
+    .nav {
+        gap: 0.5vmin; /* Reduz o espaço entre os itens */
+        justify-content: space-between; /* Melhora a distribuição */
+    }
+
+    .nav p {
+        font-size: 1rem;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        width: 92%;
+        height: 7vmin;
+        left: 51vmin;
+        position: fixed;
+    }
+
+    .nav {
+        flex-direction: row; /* Mantém os itens alinhados */
+        flex-wrap: nowrap;
+        justify-content: center; /* Centraliza os itens */
+    }
+
+    .nav p {
+        font-size: 3.5vmin;
+        padding: 5px 8px;
+    }
+}

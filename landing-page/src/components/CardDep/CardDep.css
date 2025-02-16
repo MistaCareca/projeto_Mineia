@@ -7,3 +7,59 @@ img
 h4
 p
 */
+
+.depoimentos{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 15vmin;
+}
+
+.depoimentos div{
+    background-color: #f3e3c1;
+    width: 40vmin;
+    height: 50vmin;
+    border-radius: 25px;
+    border: 3vmin solid #f3e3c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    cursor: default;
+    
+}
+
+.depoimentos div:hover{
+    transform: scale(1.1);
+}
+
+.depoimentos h4{
+    color: #150707;
+}
+
+.depoimentos p{
+    font-size: 0.68rem;
+    color: #150707;
+    text-align: justify;
+}
+
+.depoimentos img{
+    width: 15vmin;
+    height: 15vmin;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+    .depoimentos div {
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .depoimentos img {
+        width: 25vmin;
+        height: 25vmin;
+    }
+}

@@ -4,6 +4,93 @@
 classes:
 beneficios
 circulo
-destaque
+destaque_beneficios
 livro
 */
+
+
+.beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+h1{
+    font-size: 6vmin;
+    color: #F3E3C1;
+}
+
+p{
+    color: #F3E3C1;
+    text-align: center;
+    
+}
+
+.total{
+    margin-top: 10vmin;
+    display: flex;
+    flex-direction: row;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    background-color: #8D1717;
+    width: 69vmin;
+    height: 69vmin;
+    border-radius: 50%;
+}
+
+.destaque_beneficios{
+    color: #E8A04C;
+}
+
+.textos{
+    font-size: 3vmin;
+    width: 69vmin;
+    height: 69vmin;
+    margin-top: 15vmin;
+    line-height: 5vmin;
+}
+
+.livro{
+    margin-top: 5vmin;
+    width: 40vmin;
+    height: 60vmin;
+    transform: rotate(8deg)
+}
+
+
+@media (max-width: 480px) {
+    .beneficios{
+        margin-top: 50vmin;
+    }
+
+    button {
+        width: 45vmin;
+        height: 12vmin;
+        font-size: 4.5vmin;
+    }
+    .sale {
+        font-size: 6vmin;
+    }
+    .oferta {
+        font-size: 8vmin;
+    }
+    .livro {
+        width: 30vmin;
+        height: auto;
+    }
+    .circulo {
+        width: 45vmin;
+        height: 45vmin;
+    }
+    .textos {
+        font-size: 2vmin;
+        margin-top: 10vmin;
+        margin-left: -12vmin;
+        line-height: 3vmin;
+    }
+}
